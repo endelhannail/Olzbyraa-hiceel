@@ -1,41 +1,53 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="mn">
 <head>
-    <title>YouTube</title>
+    <title>Mini Blog</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h2>▶ YouTube</h2>
+    <header>
+        <h1>Mini Blog</h1>
+        <p>Миний хувийн блогт тавтай морил!</p>
+    </header>
 
-    <input type="text" placeholder="Search">
-    <button>Search</button>
+    <nav>
+        <a href="#">Нүүр</a>
+        <a href="#">Миний тухай</a>
+        <a href="#">Блог</a>
+        <a href="#">Холбоо барих</a>
+    </nav>
 
-    <hr>
+    <main>
+        <article>
+            <h2>Миний анхны блог</h2>
+            <p>Энэ бол миний анхны блог нийтлэл юм.</p>
+        </article>
 
-    <button>All</button>
-    <button>Music</button>
-    <button>Gaming</button>
-    <button>Live</button>
+        <article>
+            <h2>Миний хобби</h2>
+            <p>Би компьютер тоглох, программ бичих дуртай.</p>
+        </article>
 
-    <br><br>
+        <aside class="sidebar">
+            <h3>Миний тухай</h3>
+            <p>Би программчлал сурч байгаа.</p>
+        </aside>
 
-    <div class="video">
+        <section>
+            <h2>Сэтгэгдэл үлдээх</h2>
 
-        <a href="https://youtu.be/jJPMnTXl63E" target="_blank">
-            <img src="https://img.youtube.com/vi/jJPMnTXl63E/hqdefault.jpg">
-        </a>
+            <form>
+                <input type="text" placeholder="Нэрээ оруулна уу">
+                <input type="text" placeholder="Сэтгэгдлээ бичнэ үү">
+                <button type="submit">Илгээх</button>
+            </form>
+        </section>
+    </main>
 
-        <h3>Powfu - death bed (coffee for your head)</h3>
-
-        <p>Powfu</p>
-
-        <p>881.4M views · 6 years ago</p>
-
-        <p>👍 10.8M Likes</p>
-
-    </div>
+    <footer>
+        <p>© 2026 Mini Blog</p>
+    </footer>
 
 </body>
 </html>
